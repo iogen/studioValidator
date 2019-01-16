@@ -7,5 +7,5 @@ with open('roster.txt', 'r') as file:
 
     person = person + ")$"
 
-with open('validator.txt', 'w') as file:
+with open('studentvalidator.txt', 'w') as file:
     file.write(person)
